@@ -1,0 +1,55 @@
+/* general styling */
+
+html {
+  font-size: 10px;
+  height: 100%;
+}
+
+body {
+	width: 100%;
+	height: inherit;
+    background-color: #000a12;
+}
+
+canvas {
+  display: block;
+}
+
+/* header styling */
+
+h1 , .content{
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  font-size: 3rem;
+  margin: 0;
+  color: #eeeeee;
+  text-shadow: 0 0 10px rgba(0,0,0,0.3) ;
+}
+
+
+.clear {
+  top: 6px;
+  left: 5px;
+}
+
+.start-message {
+  position: absolute;
+  font-size: 1.4rem;
+  left: 5px;
+}
+
+.control-message {
+  position: absolute;
+  font-size: 1.4rem;
+  top: 70px;
+  left: 5px;
+    color: #eeeeee;
+}
+.white{
+  color: #c0c0c0;
+}
+.footer{
+  background-color: darkgrey;
+  display: flex;
+}

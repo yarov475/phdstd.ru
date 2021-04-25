@@ -1,0 +1,2 @@
+ErrorDocument 404 https://www.phdstd.ru/404.html
+Redirect 301 /http://www.phdstd.ru /https://www.phdstd.ru

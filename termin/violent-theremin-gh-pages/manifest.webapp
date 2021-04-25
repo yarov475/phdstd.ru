@@ -1,0 +1,32 @@
+{
+  "version": "0.1",
+  "name": "Music and Rhythm",
+  "description": "Promo of my phd theses.",
+  "launch_path": "/index.html",
+  "icons": {
+    "60": "app-icons/icon-60.png",
+    "128": "app-icons/icon-128.png"
+  },
+  "developer": {
+    "name": "Yarochkin Dmitry",
+    "url": "https://phdstd.ru"
+  },
+  "locales": {
+    "es": {
+      "description": "An illustration of music interconnection.",
+      "developer": {
+        "url": "https://phdstd.ru"
+      }
+    },
+    "it": {
+      "description": "An illustration of music interconnection..",
+      "developer": {
+        "url": "https://phdstd.ru"
+      }
+    }
+  },
+  "default_locale": "ru",
+  "permissions": {
+  },
+  "orientation":"landscape"
+}

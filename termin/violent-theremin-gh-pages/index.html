@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Rhythm and music</title>
+	<link href="styles/normalize.css" rel="stylesheet" type="text/css">
+	<link href="styles/app.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <p class="start-message white">Кликните в окошке браузера, чтобы начать. Лучше на компьютере и в наушниках.</p>
+	<div class="app-contents">
+    <h1>Ритм и мелодия</h1>
+        <ul class="control-message">
+            <li>Положение персонажа: <span id="pos"></span> </li>
+            <li>Громкость: <span id="vol"></span></li>
+            <li>Частота:   <span id="freq"></span> </li>
+            <li>Цвет:  <span id="color"></span></li>
+        </ul>
+        <p class=" content">
+            Слева направо возрастает частота. Прерывисты ритм превращается в протяжный тон.
+            Это пример синестезии. Условно преравнены: пространственное положение, звук и цвет.
+            Можно усложнить взаимосвязь, связать цвет и звук более точно,
+            но для нащей модели достаточно показать,как может одно влиять на другое и как одно может определять другое.
+            Тк любая из переменных уникальна и определяет другую. По звуку можно определить положение.
+            Это концепт. Музыки без эстетики, как особого языка всеобщнотсти.
+            Мызыка тут оторванна от своего инстурмента.
+            <a href="https://phdstd.ru/">PHD-STD</a>
+            <a href="https://github.com/yarov475/violent-theremin/blob/">GIT</a>
+        </p>
+        <p class=" content"><p class=" content"></p>
+    <canvas class="canvas">
+      Your browser does not support HTML5 canvas
+    </canvas>
+
+
+	</div>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
